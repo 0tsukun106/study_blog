@@ -11,7 +11,7 @@ function About() {
         {/* プロフィール */}
         <div className="flex items-center gap-4 mb-6">
           <img
-            src="/pictures/icon.jpg"
+            src="${import.meta.env.BASE_URL}/pictures/icon.jpg"
             alt="プロフィール画像"
             className="w-14 h-14 rounded-full object-cover border-2 border-white shadow-md"
           />

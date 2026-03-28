@@ -17,7 +17,7 @@ function PostDetail() {
 
   useEffect(() => {
     if (post) {
-      fetch(`/posts/${post.file}`)
+      fetch(`${import.meta.env.BASE_URL}posts/${post.file}`)
         .then((res) => res.text())
         .then((text) => setContent(text));
     }
